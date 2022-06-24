@@ -46,37 +46,37 @@ if (dayNumber == 6)
     Console.WriteLine("Выходной день");
     Console.WriteLine("Суббота");
 }
-if (dayNumber == 7)
+else if (dayNumber == 7)
 {
     Console.WriteLine("Выходной день");
     Console.WriteLine("Воскресенье");
 }
-if (dayNumber == 5)
+else if (dayNumber == 5)
 {
     Console.WriteLine("Будний день");
     Console.WriteLine("Пятница");
 }
-if (dayNumber == 4)
+else if (dayNumber == 4)
 {
     Console.WriteLine("Будний день");
     Console.WriteLine("Четвег");
 }
-if (dayNumber == 3)
+else if (dayNumber == 3)
 {
     Console.WriteLine("Будний день");
     Console.WriteLine("Среда");
 }
-if (dayNumber == 2)
+else if (dayNumber == 2)
 {
     Console.WriteLine("Будний день");
     Console.WriteLine("Вторник");
 }
-if (dayNumber == 1)
+else if (dayNumber == 1)
 {
     Console.WriteLine("Будний день");
     Console.WriteLine("Понедельник");
 }
-if (dayNumber > 7 || dayNumber < 1)
+else if (dayNumber > 7 || dayNumber < 1)
 {
     Console.WriteLine("Такого дня недели пока не придумали");
 }
